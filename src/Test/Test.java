@@ -14,8 +14,13 @@ public class Test {
     //modified at 6:25PM
     private String name;
     private int num;
+    private String status;
 
     //getters
+    public String getStatus() {
+        return status;
+    }
+    
     public String getName() {
         return name;
     }
@@ -31,6 +36,10 @@ public class Test {
 
     public void setNum(int num) {
         this.num = num;
+    }
+    
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     
